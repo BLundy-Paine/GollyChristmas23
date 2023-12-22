@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  margin-right: 10%;
+}
+.img-container2 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  margin-top: 5%;
+}
+.img-container3 {
+  float: right;
+  width: 25%;
+  padding: 5px;
+  margin-left: 10%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h2,h3 {
+font-family: Quicksand;
+color: darkgreen;
+text-align: center;
+}
+p {
+font-family: Quicksand;
+color: maroon;
+}
+
+</style>
+</head>
+<body>
+<h2>Pick a Gift!</h2>
+<h3>Merry Christmas my Love</h3>
+
+<div class="clearfix">
+  <div class="img-container">
+  <img src="https://i.ebayimg.com/images/g/ccYAAOSw1P1fOFeT/s-l400.jpg" style="width:100%">
+  <p>The OA: Emmy FYC DVD</p>
+  </div>
+
+<div
+style="width:10%">
+</div>
+
+<div class="img-container2">
+  <img src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2022/content-pages/giftcard/gc-03.png" alt="Italy" style="width:100%">
+  <p>$100 at Uniqlo</p>
+  </div>
+
+<div
+style="width:10%">
+</div>
+
+  <div class="img-container3">
+  <img src="https://cdn.vox-cdn.com/thumbor/QTXd9a6zuh9H0lESeP1OHgCpb4A=/0x0:3000x2004/1400x1400/filters:focal(1260x762:1740x1242):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/52196141/20161201-Union_Square_Cafe-4.0.0.jpeg" style="width:100%">
+  <p>A night on the town</p>
+  </div>
+</div>
+
+<p>Use this to get a rain jacket, some socks, a rare DVD of the OA never released to the public, or a special dinner/event of your choice</p>
+
+</body>
+</html>
